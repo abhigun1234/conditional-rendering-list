@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import ConditionalRendering from './ConditionalRendering';
+import ListData from './ListData';
+import Render from './Render';
+import IplTeams from './IplTeams';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button>ok</button>
+      {/* <ConditionalRendering></ConditionalRendering> */}
+      {/* <ListData></ListData> */}
+      {/* <Render></Render> */}
+      <IplTeams></IplTeams>
+      {/* <ListData></ListData> */}
     </div>
   );
 }
