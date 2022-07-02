@@ -9,20 +9,20 @@ import Login from './Login';
 import DashBoard from './DashBoard'
 import MatchNotFound from './MatchNotFound';
 import NavBarComponent from './NavBarComponent';
+import ConditionalRendering from './ConditionalRendering';
+import StateDemo from './StateDemo';
+import Parent from './Parent';
+import Person from './Person';
 function App() {
   return (
 
     
-<BrowserRouter>
-<NavBarComponent></NavBarComponent>
-<Routes>
+<div>
 
-<Route path='/' exact  element={<Login />}></Route>
-<Route path='/dash' exact element={<DashBoard />}></Route>
-<Route path='*' exact element={<MatchNotFound />}></Route>
-</Routes>
-
-</BrowserRouter>
+  {/* <Parent></Parent> */}
+  <Person></Person>
+ 
+</div>
 
 
 //    <BrowserRouter>

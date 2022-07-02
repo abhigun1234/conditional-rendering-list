@@ -9,15 +9,15 @@ export default class ConditionalRendering extends Component {
 //  return   <div>
 //       Hello
 //     </div>
-   // 1
-    //   if(this.state.isLoogedIn){
-    //     return <div>Welcome Students</div>
+   //1
+      // if(this.state.isLoogedIn){
+      //   return <div>Welcome Students</div>
         
-    //   }
-    //   else{
-    //     return  <div>Welcome Teachers</div>
+      // }
+      // else{
+      //   return  <div>Welcome Teachers</div>
         
-    //   }
+      // }
     // 2 
     // let messege
     // if(this.state.isLoogedIn){
