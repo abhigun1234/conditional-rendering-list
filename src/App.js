@@ -15,6 +15,7 @@ import Parent from './Parent';
 import Person from './Person';
 import ListData from './ListData';
 import ClassState from './ClassState';
+import RenderList from './RenderList';
 function App() {
   return (
 
@@ -23,8 +24,9 @@ function App() {
 
 
 {/* <ListData></ListData> */}
- <ConditionalRendering></ConditionalRendering>
+ {/* <ConditionalRendering></ConditionalRendering> */}
  {/* <ClassState></ClassState> */}
+ <RenderList></RenderList>
 </div>
 
 
