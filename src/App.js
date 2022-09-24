@@ -13,15 +13,18 @@ import ConditionalRendering from './ConditionalRendering';
 import StateDemo from './StateDemo';
 import Parent from './Parent';
 import Person from './Person';
+import ListData from './ListData';
+import ClassState from './ClassState';
 function App() {
   return (
 
     
 <div>
 
-  {/* <Parent></Parent> */}
-  <Person></Person>
- 
+
+{/* <ListData></ListData> */}
+ <ConditionalRendering></ConditionalRendering>
+ {/* <ClassState></ClassState> */}
 </div>
 
 
