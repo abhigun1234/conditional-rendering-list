@@ -12,6 +12,8 @@ function IplTeams(props) {
            
 {/* <div className='primary'>Hi</div> */}
 <div className={className}>hi</div>
+<button type="button" class="btn btn-primary">Primary</button>
+
 {/* <div className={className}>hi</div> */}
 
             {

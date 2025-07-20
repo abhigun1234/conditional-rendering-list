@@ -19,6 +19,7 @@ import RenderList from './RenderList';
 import IplTeams from './IplTeams';
 import JsxDemo from './Jsxdemo';
 import ProductList from './ProductList';
+import Ecommercedash from './Ecommercedash';
 function App() {
   return (
 
@@ -43,10 +44,11 @@ function App() {
 
    </BrowserRouter> */}
 {/* <ConditionalRendering></ConditionalRendering> */}
-<IplTeams primary={false} secondry={true}> </IplTeams>
+{/* <IplTeams primary={false} secondry={true}> </IplTeams> */}
 {/* <ProductList></ProductList> */}
-<ConditionalRendering></ConditionalRendering>
+{/* <ConditionalRendering></ConditionalRendering> */}
 {/* <IplTeams></IplTeams> */}
+<Ecommercedash></Ecommercedash>
 </div>
 
 
