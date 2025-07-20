@@ -9,7 +9,8 @@ export default class ConditionalRendering extends Component {
 //  return   <div>
 //       Hello
 //     </div>
-   //1
+//  
+ // 1
   //  if(this.state.isLoogedIn){
   //   return <div>Welcome Students</div>
     
@@ -17,7 +18,7 @@ export default class ConditionalRendering extends Component {
   // else{
   //   return  <div>Welcome Teachers</div>
     
-  // }
+  //   }
     // 2 
     // let messege
     // if(this.state.isLoogedIn){
@@ -28,8 +29,8 @@ export default class ConditionalRendering extends Component {
     // }
     // return <div>{messege}</div>
     // 3
-     //return(this.state.isLoogedIn?<div>Welcome Student</div>:<div>welcome Teachers</div>)
+      //return(this.state.isLoogedIn?<div>Welcome Student</div>:<div>welcome Teachers</div>)
     // 4
-     return this.state.isLoogedIn && <div>Welcome Students</div>
+      return this.state.isLoogedIn && <div>Welcome Students</div>
   }
 }

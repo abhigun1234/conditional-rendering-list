@@ -3,7 +3,7 @@ import React from 'react';
 function ListData(props) {
     const students = [{ name: 'Abhi', email: "abhi@gmail.com" }, 
     { name: 'Ravi', email: "abhi@gmail.com" },
-    { name: 'Rahul', email: "abhi@gmail.com"}]
+    { name: 'Rahul', email: "abhi@gmail.com"},]
 //const StudenList=   students.map(name=><h2>{name}</h2>)
 return (
     <div>

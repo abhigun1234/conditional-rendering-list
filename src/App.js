@@ -16,37 +16,41 @@ import Person from './Person';
 import ListData from './ListData';
 import ClassState from './ClassState';
 import RenderList from './RenderList';
+import IplTeams from './IplTeams';
+import JsxDemo from './Jsxdemo';
+import ProductList from './ProductList';
 function App() {
   return (
 
     
 <div>
 
+{/* <BrowserRouter>
+   <Header></Header>
+ <Routes>
+ <Route path="/" exact  element={<DashBoard />}>
+  </Route>
+  <Route path="/dash" exact  element={<DashBoard />}>
+     
+     </Route>
+   <Route path="/productlist" exact  element={<ProductList />}>
+     
+   </Route>
+     <Route path="*"   element={<PageNotFound />}>
+     
+     </Route>
+     </Routes>
 
-{/* <ListData></ListData> */}
- {/* <ConditionalRendering></ConditionalRendering> */}
- {/* <ClassState></ClassState> */}
- <RenderList></RenderList>
+   </BrowserRouter> */}
+{/* <ConditionalRendering></ConditionalRendering> */}
+<IplTeams primary={false} secondry={true}> </IplTeams>
+{/* <ProductList></ProductList> */}
+<ConditionalRendering></ConditionalRendering>
+{/* <IplTeams></IplTeams> */}
 </div>
 
 
-//    <BrowserRouter>
-//    <Header></Header>
-//  <Routes>
-//  <Route path="/" exact  element={<IplTeams />}>
-//   </Route>
-//    <Route path="/dash" exact  element={<DashBoard />}>
-     
-//    </Route>
-//    <Route path="/stu" exact  element={<Students />}>
-     
-//      </Route>
-//      <Route path="*"   element={<PageNotFound />}>
-     
-//      </Route>
-//      </Routes>
-
-//    </BrowserRouter>
+ 
   );
 }
 

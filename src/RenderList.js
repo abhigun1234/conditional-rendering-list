@@ -14,19 +14,19 @@ function RenderList(props) {
                         {/* {student.name}
                         {student.email} */}
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Email</th>
+                            <table>
+                              <tr>
+                                <th>Name</th>
+                                <th>Email</th>
 
-  </tr>
-  <tr>
-    <td>{student.name}</td>
-    <td>{student.email}</td>
+                              </tr>
+                              <tr>
+                                <td>{student.name}</td>
+                                <td>{student.email}</td>
 
-  </tr>
-  
-</table>
+                              </tr>
+                              
+                            </table>
                         </div>
                 )
             }
